@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="DELETE">
+        <active>true</active>
+        <applicability display_value="Audience for app book-shelf">1912f6a347dc62102250bb30116d430c</applicability>
+        <list/>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:02:28</sys_created_on>
+        <sys_id>dd12f6a347dc62102250bb30116d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_dd12f6a347dc62102250bb30116d4361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:02:28</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Book Shelf">a6df596f471862102250bb30116d438c</application>
+        <file_path/>
+        <instance_id>8ea2701beb542650e9bbfddacad0cdf0</instance_id>
+        <instance_name>dev304243</instance_name>
+        <name>sys_ux_applicability_m2m_list_dd12f6a347dc62102250bb30116d4361</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list"><sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Audience for app book-shelf">1912f6a347dc62102250bb30116d430c</applicability><list/><order>100</order><sys_class_name>sys_ux_applicability_m2m_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-21 17:02:28</sys_created_on><sys_id>dd12f6a347dc62102250bb30116d4361</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package><sys_policy/><sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope><sys_update_name>sys_ux_applicability_m2m_list_dd12f6a347dc62102250bb30116d4361</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-21 17:02:28</sys_updated_on></sys_ux_applicability_m2m_list></record_update>]]></payload>
+        <payload_hash>-199928009</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a2df596f471862102250bb30116d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:04:56</sys_created_on>
+        <sys_id>19a23ae347dc62102250bb30116d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b9aa3b9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:04:56</sys_updated_on>
+        <type>List Applicability</type>
+        <update_guid>1112f6a31edc6210c04fa8a47dd7c464</update_guid>
+        <update_guid_history>1112f6a31edc6210c04fa8a47dd7c464:445419211,1112f6a31edc6210c04fa8a47dd7c464:445419211</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:04:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_list">sys_ux_applicability_m2m_list</sys_db_object>
+        <sys_id>1ac8de6c02aa49058be0e2ee7de39f51</sys_id>
+        <sys_metadata>dd12f6a347dc62102250bb30116d4361</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_scope_delete display_value="">470432a19b324a18a3259cfcdf42ca40</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_list_dd12f6a347dc62102250bb30116d4361</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_list_dd12f6a347dc62102250bb30116d4361">19a23ae347dc62102250bb30116d433e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:04:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

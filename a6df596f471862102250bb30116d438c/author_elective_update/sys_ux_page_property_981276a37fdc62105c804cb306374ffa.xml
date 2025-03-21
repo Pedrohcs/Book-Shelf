@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="Book Shelf">1012b6a30fdc6210335225999420ff15</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:02:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>981276a37fdc62105c804cb306374ffa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_update_name>sys_ux_page_property_981276a37fdc62105c804cb306374ffa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:02:28</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1623559_book_s_0.1012b6a30fdc6210335225999420ff15.root.global.wbApplicabilityConfigId</unique_name>
+        <value>1912f6a347dc62102250bb30116d430c</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=981276a37fdc62105c804cb306374ffa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Book Shelf">a6df596f471862102250bb30116d438c</application>
+        <file_path/>
+        <instance_id>8ea2701beb542650e9bbfddacad0cdf0</instance_id>
+        <instance_name>dev304243</instance_name>
+        <name>sys_ux_page_property_981276a37fdc62105c804cb306374ffa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>sys_ux_applicability sys_id for Workspace audience</description><name>wbApplicabilityConfigId</name><page display_value="Book Shelf">1012b6a30fdc6210335225999420ff15</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-21 17:02:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>981276a37fdc62105c804cb306374ffa</sys_id><sys_mod_count>1</sys_mod_count><sys_name>wbApplicabilityConfigId</sys_name><sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package><sys_policy/><sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope><sys_update_name>sys_ux_page_property_981276a37fdc62105c804cb306374ffa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-21 17:02:28</sys_updated_on><type>string</type><unique_name>x_1623559_book_s_0.1012b6a30fdc6210335225999420ff15.root.global.wbApplicabilityConfigId</unique_name><value>1912f6a347dc62102250bb30116d430c</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=981276a37fdc62105c804cb306374ffa"/></record_update>]]></payload>
+        <payload_hash>-1284521854</payload_hash>
+        <record_name>wbApplicabilityConfigId</record_name>
+        <reverted_from/>
+        <source>a2df596f471862102250bb30116d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:02:28</sys_created_on>
+        <sys_id>9512f6a347dc62102250bb30116d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b9a7fab80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:02:28</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>5d12f6a304dc62104b6f6f28421abd2d</update_guid>
+        <update_guid_history>5d12f6a304dc62104b6f6f28421abd2d:-1284521854,9112f6a3ccdc6210259d1933d587d32c:850729079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:04:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>705714fd0f474a30b4bdd39431164900</sys_id>
+        <sys_metadata>981276a37fdc62105c804cb306374ffa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_scope_delete display_value="">470432a19b324a18a3259cfcdf42ca40</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_981276a37fdc62105c804cb306374ffa</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_981276a37fdc62105c804cb306374ffa">9512f6a347dc62102250bb30116d432e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:04:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

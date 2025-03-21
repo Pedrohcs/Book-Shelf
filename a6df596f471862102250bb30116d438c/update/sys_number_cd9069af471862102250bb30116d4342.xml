@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1623559_book_s_0_livro">x_1623559_book_s_0_livro</category>
+        <maximum_digits>9</maximum_digits>
+        <number>1</number>
+        <prefix>LIV</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 11:06:23</sys_created_on>
+        <sys_id>cd9069af471862102250bb30116d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LIV</sys_name>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_update_name>sys_number_cd9069af471862102250bb30116d4342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 11:06:23</sys_updated_on>
+    </sys_number>
+</record_update>

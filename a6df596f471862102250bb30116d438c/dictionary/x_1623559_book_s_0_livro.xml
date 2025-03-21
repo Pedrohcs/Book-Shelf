@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="389069af471862102250bb30116d4323" label="Livro" max_length="40" name="x_1623559_book_s_0_livro" text_index="true" type="collection">
+        <element label="Google URL" max_length="1000" name="u_google_url" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Páginas" max_length="40" name="u_paginas" type="integer"/>
+        <element label="Capa" max_length="1000" name="u_capa" type="string"/>
+        <element label="Data de Publicação" max_length="40" name="u_data_de_publicacao" type="glide_date"/>
+        <element display="true" label="Título" max_length="144" name="u_titulo" type="string"/>
+        <element label="Editora" max_length="40" name="u_editora" type="string"/>
+        <element label="Autor" max_length="40" name="u_autor" type="string"/>
+        <element label="Descrição" max_length="5000" name="u_descricao" type="string"/>
+    </element>
+</database>

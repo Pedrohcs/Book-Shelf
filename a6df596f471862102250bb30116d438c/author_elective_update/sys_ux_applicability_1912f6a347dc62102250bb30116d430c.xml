@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="DELETE">
+        <active>true</active>
+        <api_name>x_1623559_book_s_0.Audience for app book-shelf</api_name>
+        <description/>
+        <name>Audience for app book-shelf</name>
+        <role_names/>
+        <roles>aadf596f471862102250bb30116d4395,6edf596f471862102250bb30116d43a8</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:02:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1912f6a347dc62102250bb30116d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app book-shelf</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_update_name>sys_ux_applicability_1912f6a347dc62102250bb30116d430c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:02:28</sys_updated_on>
+    </sys_ux_applicability>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Book Shelf">a6df596f471862102250bb30116d438c</application>
+        <file_path/>
+        <instance_id>8ea2701beb542650e9bbfddacad0cdf0</instance_id>
+        <instance_name>dev304243</instance_name>
+        <name>sys_ux_applicability_1912f6a347dc62102250bb30116d430c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability"><sys_ux_applicability action="INSERT_OR_UPDATE"><active>true</active><api_name>x_1623559_book_s_0.Audience for app book-shelf</api_name><description/><name>Audience for app book-shelf</name><role_names/><roles>aadf596f471862102250bb30116d4395,6edf596f471862102250bb30116d43a8</roles><sys_class_name>sys_ux_applicability</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-21 17:02:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1912f6a347dc62102250bb30116d430c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Audience for app book-shelf</sys_name><sys_overrides/><sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package><sys_policy/><sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope><sys_update_name>sys_ux_applicability_1912f6a347dc62102250bb30116d430c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-21 17:02:28</sys_updated_on></sys_ux_applicability></record_update>]]></payload>
+        <payload_hash>1941463702</payload_hash>
+        <record_name>Audience for app book-shelf</record_name>
+        <reverted_from/>
+        <source>a2df596f471862102250bb30116d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:02:28</sys_created_on>
+        <sys_id>1512f6a347dc62102250bb30116d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b9a7fa890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:02:28</sys_updated_on>
+        <type>Audience</type>
+        <update_guid>d512f6a334dc6210bc0da337ca11a029</update_guid>
+        <update_guid_history>d512f6a334dc6210bc0da337ca11a029:1941463702</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:04:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability">sys_ux_applicability</sys_db_object>
+        <sys_id>c2620fdaadd44f60a9cd5dfe329a6400</sys_id>
+        <sys_metadata>1912f6a347dc62102250bb30116d430c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app book-shelf</sys_name>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_scope_delete display_value="">470432a19b324a18a3259cfcdf42ca40</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_1912f6a347dc62102250bb30116d430c</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_1912f6a347dc62102250bb30116d430c">1512f6a347dc62102250bb30116d432a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:04:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

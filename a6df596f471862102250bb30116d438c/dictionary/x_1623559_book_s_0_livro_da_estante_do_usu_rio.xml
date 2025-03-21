@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7ae57ee747dc62102250bb30116d43e2" label="Livro da Estante do Usuário" max_length="40" name="x_1623559_book_s_0_livro_da_estante_do_usu_rio" type="collection">
+        <element label="Progresso" max_length="38" name="u_progresso" type="percent_complete"/>
+        <element default="0" label="Página atual" max_length="40" name="u_pagina_atual" type="integer"/>
+        <element display="true" label="Livro" max_length="32" name="u_livro" read_only="true" reference="x_1623559_book_s_0_livro" type="reference"/>
+        <element label="Nota" max_length="40" name="u_nota" type="integer"/>
+        <element label="Usuário" max_length="32" name="u_usuario" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Titulo" max_length="144" name="u_titulo" type="string"/>
+        <index name="index">
+            <element name="u_livro"/>
+        </index>
+        <index name="index2">
+            <element name="u_usuario"/>
+        </index>
+    </element>
+</database>

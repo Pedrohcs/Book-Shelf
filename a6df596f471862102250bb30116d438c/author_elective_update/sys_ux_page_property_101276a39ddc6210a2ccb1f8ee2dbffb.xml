@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Book Shelf">1012b6a30fdc6210335225999420ff15</page>
+        <required_translations>[ {
+  "message" : "New Livro",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:02:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>101276a39ddc6210a2ccb1f8ee2dbffb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_update_name>sys_ux_page_property_101276a39ddc6210a2ccb1f8ee2dbffb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:02:30</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1623559_book_s_0.1012b6a30fdc6210335225999420ff15.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Livro"},"routeInfo":{"route":"record","fields":{"table":"x_1623559_book_s_0_livro","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1623559_book_s_0_livro","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=101276a39ddc6210a2ccb1f8ee2dbffb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Book Shelf">a6df596f471862102250bb30116d438c</application>
+        <file_path/>
+        <instance_id>8ea2701beb542650e9bbfddacad0cdf0</instance_id>
+        <instance_name>dev304243</instance_name>
+        <name>sys_ux_page_property_101276a39ddc6210a2ccb1f8ee2dbffb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Tabs Configuration</description><name>chrome_tab</name><page display_value="Book Shelf">1012b6a30fdc6210335225999420ff15</page><required_translations>[ {
+  "message" : "New Livro",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-21 17:02:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>101276a39ddc6210a2ccb1f8ee2dbffb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_tab</sys_name><sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package><sys_policy/><sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope><sys_update_name>sys_ux_page_property_101276a39ddc6210a2ccb1f8ee2dbffb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-21 17:02:30</sys_updated_on><type>json</type><unique_name>x_1623559_book_s_0.1012b6a30fdc6210335225999420ff15.root.global.chrome_tab</unique_name><value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Livro"},"routeInfo":{"route":"record","fields":{"table":"x_1623559_book_s_0_livro","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1623559_book_s_0_livro","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=101276a39ddc6210a2ccb1f8ee2dbffb"/></record_update>]]></payload>
+        <payload_hash>-202678733</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>a2df596f471862102250bb30116d4391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:02:30</sys_created_on>
+        <sys_id>bd12f6a347dc62102250bb30116d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b9a8014d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:02:30</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>7512f6a31fdc62100c574d3352633bb6</update_guid>
+        <update_guid_history>7512f6a31fdc62100c574d3352633bb6:-202678733,3d12f6a3c7dc6210370cc51ef8c973b4:714522166</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:04:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>47f5af0dee134b80ab3684b61bbe0e40</sys_id>
+        <sys_metadata>101276a39ddc6210a2ccb1f8ee2dbffb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_scope_delete display_value="">470432a19b324a18a3259cfcdf42ca40</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_101276a39ddc6210a2ccb1f8ee2dbffb</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_101276a39ddc6210a2ccb1f8ee2dbffb">bd12f6a347dc62102250bb30116d43b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:04:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

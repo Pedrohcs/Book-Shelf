@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1623559_book_s_0.utilScript</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Batch de scripts centralizados para as funções backend</description>
+        <mobile_callable>false</mobile_callable>
+        <name>utilScript</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var utilScript = Class.create();
+utilScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    _getLivroTabela: function(tituloLivro) {
+        var livro = new GlideRecord('x_1623559_book_s_0_livro');
+        livro.addQuery('u_titulo', tituloLivro);
+        livro.query();
+
+        if (livro.next()) {
+            return {
+                sys_id: livro.getValue('sys_id'),
+                titulo: livro.getValue('u_titulo')
+            };
+        } else {
+            return null;
+        }
+    },
+
+    _createLivro: function(livroInfo, googleLink) {
+        var novoLivro = new GlideRecord('x_1623559_book_s_0_livro');
+        novoLivro.initialize();
+
+        novoLivro.setValue('u_autor', livroInfo.authors[0]);
+		novoLivro.setValue('u_capa', livroInfo.imageLinks.smallThumbnail);
+		novoLivro.setValue('u_data_de_publicacao', livroInfo.publishedDate);
+		novoLivro.setValue('u_descricao', livroInfo.description);
+		novoLivro.setValue('u_editora', livroInfo.publisher);
+		novoLivro.setValue('u_google_url', googleLink);
+		novoLivro.setValue('u_paginas', livroInfo.pageCount);
+		novoLivro.setValue('u_titulo', livroInfo.title);
+
+        novoLivro.insert();
+
+        return {
+            sys_id: novoLivro.getValue('sys_id'),
+            titulo: novoLivro.getValue('u_titulo'),
+        };
+    },
+
+    GetLivro: function() {
+        try {
+            var tituloLivro = this.getParameter('sysparm_titulo_livro');
+
+            var livroInterno = this._getLivroTabela(tituloLivro);
+            if (livroInterno) {
+                return new global.JSON().encode(livroInterno); //JSON formatted string
+            }
+
+            if (tituloLivro && tituloLivro != '') {
+                tituloLivro = gs.urlEncode(tituloLivro);
+
+                var r = new sn_ws.RESTMessageV2('x_1623559_book_s_0.GetGoogleRead', 'Default GET');
+                r.setStringParameterNoEscape('titulo_livro', tituloLivro);
+
+                var response = r.execute();
+                var responseBody = response.getBody();
+				var parsedBody = JSON.parse(responseBody);
+                var httpStatus = response.getStatusCode();
+
+                if (httpStatus == 200 && parsedBody && parsedBody.items && parsedBody.totalItems > 0) {
+					var livroInfo = parsedBody.items[0].volumeInfo; // A primeira posição do array items é o livro escolhido
+					var googleLink = parsedBody.items[0].selfLink;
+
+					var novoLivro = this._createLivro(livroInfo, googleLink);
+					return new global.JSON().encode(novoLivro);
+                } else {
+                    gs.error('Erro ao consultar Google Reads: ' + httpStatus);
+                    return '{"erro": true}';
+                }
+            }
+        } catch (ex) {
+            var message = ex.getMessage();
+            gs.error('Erro na integração com Google Reads: ' + message);
+            return '{"erro": true}';
+        }
+    },
+
+    type: 'utilScript'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:58:56</sys_created_on>
+        <sys_id>126cb6234710a2102250bb30116d434a</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>utilScript</sys_name>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_update_name>sys_script_include_126cb6234710a2102250bb30116d434a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 19:34:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

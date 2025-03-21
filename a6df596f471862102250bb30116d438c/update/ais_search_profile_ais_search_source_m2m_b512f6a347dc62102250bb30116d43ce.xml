@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="book-shelf Search Profile">5c12b6a3c4dc6210360a5075996b8f14</profile>
+        <search_source display_value="Livro">b512f6a347dc62102250bb30116d43ca</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:02:30</sys_created_on>
+        <sys_id>b512f6a347dc62102250bb30116d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>book-shelf Search Profile.Livro</sys_name>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_b512f6a347dc62102250bb30116d43ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 17:02:30</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>
