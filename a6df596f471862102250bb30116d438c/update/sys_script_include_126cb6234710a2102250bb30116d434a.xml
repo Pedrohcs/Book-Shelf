@@ -86,19 +86,37 @@ utilScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         }
     },
 
+	GetTotalPaginas: function() {
+        var livroEstanteSysId = this.getParameter('sysparm_livro_estante_sysid');
+        var totalPaginas = 0;
+        
+        if (livroEstanteSysId) {
+            var grLivrosEstante = new GlideRecord('x_1623559_book_s_0_livro_da_estante_do_usu_rio');
+            if (grLivrosEstante.get(livroEstanteSysId)) {
+                var livroSysId = grLivrosEstante.u_livro;
+                
+                var grLivro = new GlideRecord('x_1623559_book_s_0_livro');
+                if (grLivro.get(livroSysId)) {
+                    totalPaginas = grLivro.u_paginas;
+                }
+            }
+        }
+        return totalPaginas;
+    },
+
     type: 'utilScript'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-21 17:58:56</sys_created_on>
         <sys_id>126cb6234710a2102250bb30116d434a</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>utilScript</sys_name>
         <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
         <sys_update_name>sys_script_include_126cb6234710a2102250bb30116d434a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-21 19:34:20</sys_updated_on>
+        <sys_updated_on>2025-03-24 13:31:34</sys_updated_on>
     </sys_script_include>
 </record_update>
