@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="7ae57ee747dc62102250bb30116d43e2" label="Livro da Estante do Usuário" max_length="40" name="x_1623559_book_s_0_livro_da_estante_do_usu_rio" type="collection">
+    <element db_object_id="7ae57ee747dc62102250bb30116d43e2" label="Livro da Estante do Usuário" max_length="40" name="x_1623559_book_s_0_livro_da_estante_do_usu_rio" text_index="true" type="collection">
         <element label="Progresso" max_length="38" name="u_progresso" type="percent_complete"/>
         <element default="0" label="Página atual" max_length="40" name="u_pagina_atual" type="integer"/>
         <element display="true" label="Livro" max_length="32" name="u_livro" read_only="true" reference="x_1623559_book_s_0_livro" type="reference"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f0fac1644764a6102250bb30116d4324" label="Atualizações do Livro" max_length="40" name="x_1623559_book_s_0_atualiza_es_do_livro" type="collection">
+    <element db_object_id="f0fac1644764a6102250bb30116d4324" label="Atualizações do Livro" max_length="40" name="x_1623559_book_s_0_atualiza_es_do_livro" text_index="true" type="collection">
         <element label="Usuário" max_length="32" name="u_usuario" reference="sys_user" type="reference"/>
         <element label="Resenha" max_length="500" name="u_resenha" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>

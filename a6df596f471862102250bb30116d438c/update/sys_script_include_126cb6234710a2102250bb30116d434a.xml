@@ -59,6 +59,7 @@ utilScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
             if (tituloLivro && tituloLivro != '') {
                 tituloLivro = gs.urlEncode(tituloLivro);
+				console.log(tituloLivro);
 
                 var r = new sn_ws.RESTMessageV2('x_1623559_book_s_0.GetGoogleRead', 'Default GET');
                 r.setStringParameterNoEscape('titulo_livro', tituloLivro);
@@ -110,13 +111,13 @@ utilScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-21 17:58:56</sys_created_on>
         <sys_id>126cb6234710a2102250bb30116d434a</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>utilScript</sys_name>
         <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
         <sys_update_name>sys_script_include_126cb6234710a2102250bb30116d434a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-24 13:31:34</sys_updated_on>
+        <sys_updated_on>2025-03-24 13:41:51</sys_updated_on>
     </sys_script_include>
 </record_update>

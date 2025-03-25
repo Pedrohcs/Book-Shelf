@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>300</order>
+        <search_context_config display_value="Book Shelf - Workspace Search">3f03e5686ae4a61019245a670940b0f9</search_context_config>
+        <source display_value="Book Shelf - x_1623559_book_s_0_atualiza_es_do_liv">4913696847e4a6102250bb30116d43b1</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 13:51:14</sys_created_on>
+        <sys_id>d913696847e4a6102250bb30116d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Book Shelf" source="x_1623559_book_s_0">a6df596f471862102250bb30116d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Book Shelf">a6df596f471862102250bb30116d438c</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_d913696847e4a6102250bb30116d43c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 13:51:14</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>
